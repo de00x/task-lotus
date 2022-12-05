@@ -1,0 +1,27 @@
+.timerContainer {
+  display: flex;
+  position: absolute;
+  width: 100%;
+  padding: 1rem;
+  bottom: 4.5rem;
+  border-radius: 0.2rem;
+  border: 1px solid rgb(213, 16, 16);
+  background-color: rgba(221, 19, 19, 0.446);
+}
+.timer {
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  color: rgb(136, 11, 11);
+}
+.timerLogo {
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  & svg {
+    width: 18px;
+    fill: rgb(136, 11, 11) !important;
+  }
+}

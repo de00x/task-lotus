@@ -1,0 +1,61 @@
+.middleBiddingContainer {
+  display: flex;
+  margin-top: 1rem;
+}
+.biddingRowHeaderContainer {
+  border-top: 3px solid #ccc;
+}
+.biddingRowHeader {
+  width: 30rem;
+  min-width: 30rem;
+  padding: 0.2rem 0.5rem;
+  background-color: rgba(238, 235, 235, 0.585);
+  &:nth-child(2),
+  &:nth-child(4),
+  &:nth-child(6) {
+    background-color: #fff;
+  }
+  &:nth-child(5) {
+    display: flex;
+    align-items: center;
+    height: 6rem;
+  }
+}
+.biddingParametersContainer {
+  width: 20rem;
+  min-width: 20rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-top: 3px solid #ccc;
+  & div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 0.2rem 0.5rem;
+  }
+}
+.biddingRow1 {
+  height: 3.15rem;
+}
+.biddingRow3 {
+  margin-top: 0.05rem;
+}
+.biddingRow5 {
+  display: flex;
+  flex-direction: column;
+  height: 6rem;
+  color: blue;
+  & div:nth-child(2) {
+    color: rgb(208, 103, 4);
+  }
+  & div:nth-child(3) {
+    color: rgb(19, 186, 19);
+  }
+}
+.biddingRow1,
+.biddingRow3,
+.biddingRow5 {
+  background-color: rgba(238, 235, 235, 0.585);
+}

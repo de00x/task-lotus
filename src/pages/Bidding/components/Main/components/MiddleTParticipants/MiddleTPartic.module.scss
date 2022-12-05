@@ -1,0 +1,28 @@
+.middleTParticContainer {
+  display: flex;
+  margin-top: 3rem;
+}
+.middleTParticText {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30rem;
+  min-width: 30rem;
+  font-weight: 500;
+  color: blue;
+}
+.middleTParticipants {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  width: 20rem;
+  min-width: 20rem;
+  color: blue;
+  & div:nth-child(1) {
+    margin-bottom: 0.2rem;
+  }
+  & svg {
+    fill: rgb(126, 194, 23);
+  }
+}

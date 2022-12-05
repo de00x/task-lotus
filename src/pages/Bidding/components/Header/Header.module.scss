@@ -1,0 +1,14 @@
+.headerContainer {
+  padding: 0rem 2rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid #ccc;
+  & h1 {
+    font-size: 20px;
+    font-weight: 200;
+    color: red;
+    & span {
+      font-size: 20px;
+      font-weight: 500;
+    }
+  }
+}
